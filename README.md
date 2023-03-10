@@ -39,7 +39,7 @@ The world is your oyster!
 
 ### Using the Functions
 
-`Build-SignedJWT` Creates a Signed JWT, signing with your clientId, privateKeyPath, and the other payload requirments from the original [JavaScript Helper Utility](https://github.com/Banno/banno-client-creds-helper):
+`Build-SignedJWT` Creates a Signed JWT, signing with your clientId, privateKeyPath, and the other payload requirements from the original [JavaScript Helper Utility](https://github.com/Banno/banno-client-creds-helper):
 ```PowerShell
 Build-SignedJWT -clientId "00000000-0000-0000-0000-000000000000" -privateKeyPath "C:\Path\To\Keys\private_key.pem"
 ```
