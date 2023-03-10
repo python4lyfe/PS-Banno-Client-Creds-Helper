@@ -3,7 +3,7 @@
 This is a PowerShell version of the [JavaScript Helper Utility](https://github.com/Banno/banno-client-creds-helper). I created these functions so I could use the Banno API for RPA Automations.
 
 ## Getting Started
----
+
 
 - Install the latest version of PowerShell (PWSH):
 ```PowerShell
@@ -21,7 +21,7 @@ PS C:\Current\Working\Directory> Install-Module -Name powershell-jwt -Scope AllU
 ```
 
 ## Usage
----
+
 *Disclaimer: You must run this in the updated PowerShell (PWSH). These will not work with the built-in version of PowerShell in Windows (v5.1)*
 
 - You can Dot Source them:
@@ -38,7 +38,6 @@ PS C:\Current\Working\Directory> pwsh ps-banno-client-creds-helper.ps1
 The world is your oyster!
 
 ### Using the Functions
----
 
 `Build-SignedJWT` Creates a Signed JWT, signing with your clientId, privateKeyPath, and the other payload requirments from the original [JavaScript Helper Utility](https://github.com/Banno/banno-client-creds-helper):
 ```PowerShell
@@ -64,11 +63,9 @@ AccessToken                             InstitutionId
 This one is the money here. This returns everything required for you to make API calls with the [Banno Admin API](https://jackhenry.dev/open-api-docs/admin-api/).
 
 ## Changelog
----
 
 
 ## Contributing and Support
----
 
 🐞 If the code doesn't perform as expected, raise a GitHub issue. Specify the expected behaviour and the actual output/error message. Make sure you're using the latest published version of the script and that you've met the initial requirements.
 
