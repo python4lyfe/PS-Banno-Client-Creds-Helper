@@ -1,3 +1,9 @@
+<p align="center">
+<a href="https://github.com/python4lyfe/PS-Banno-Client-Creds-Helper"><img src="https://img.shields.io/github/license/python4lyfe/PS-Banno-Client-Creds-Helper"></a>
+<a href="https://github.com/python4lyfe/PS-Banno-Client-Creds-Helper"><img src="https://img.shields.io/github/languages/top/python4lyfe/PS-Banno-Client-Creds-Helper"></a>
+<a href="https://github.com/python4lyfe/PS-Banno-Client-Creds-Helper"><img src="https://img.shields.io/github/languages/code-size/python4lyfe/PS-Banno-Client-Creds-Helper"></a>
+</p>
+
 # PS-Banno-Client-Creds-Helper
 
 This is a PowerShell version of the [JavaScript Helper Utility](https://github.com/Banno/banno-client-creds-helper). I created these functions so I could use the Banno API for RPA Automations.
