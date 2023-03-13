@@ -79,7 +79,7 @@ Function Get-ClientAssertion {
         $enterpriseOidcTokenUri = 'https://banno.com/a/oidc-provider/api/v0/token'
 
         #Create a Signed JWT
-        $clientAssertion = Get-SignedJWT -clientId $clientId -privateKeyPath $privateKeyPath
+        $clientAssertion = Build-SignedJWT -clientId $clientId -privateKeyPath $privateKeyPath
 
         #Create the Token Payload
         $tokenPayload = @{
